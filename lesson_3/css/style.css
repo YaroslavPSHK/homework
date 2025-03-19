@@ -1,0 +1,97 @@
+@import "reset.css";
+
+* {
+	color: rgb(121, 18, 18)
+}
+
+.header-title {
+	color: rgb(81, 40, 139);
+}
+
+p {
+	color: aqua;
+}
+
+#one {
+	color: green;
+}
+
+[class*="xt"] {
+	color: coral;
+}
+
+.text-first,
+.text-second {
+	color: black;
+}
+
+p.text {
+	color: rgb(11, 80, 80);
+}
+
+.block-four p {
+	color: gold;
+}
+
+.block-four h2 {
+	color: red;
+}
+
+.block-four a {
+	color: black;
+}
+
+.block-three .title-main {
+	color: blueviolet;
+}
+
+.example-list {
+	color: green;
+}
+
+
+.list>li {
+	color: red;
+}
+
+.list li~li {
+	color: green;
+}
+
+.list>li ul>li {
+	color: blue;
+}
+
+.list>li ul>li~li {
+	color: orange;
+}
+
+.list>li ul>li~li>span {
+	color: #a0f0fc;
+}
+
+.list>li ul>li~li>ol li {
+	color: #4597f7;
+}
+
+.list>li ul>li~li>ol li~li,
+.list>li ul>li~li>ol li~li span {
+	color: #5d5d5d;
+}
+
+
+/* .list ul {
+	color: orange;
+}
+
+.list ul>+li {
+	color: blue;
+}
+
+.list~p {
+	color: black;
+}
+
+.list+p {
+	color: rgb(186, 0, 136);
+} */
