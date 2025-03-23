@@ -1,0 +1,102 @@
+@import "reset.css";
+@import url("fonts.css");
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.header-list>li a {
+	font-family: "Intro";
+	font-size: 25px;
+	text-decoration: underline;
+	color: rgba(111, 122, 122, 0.8);
+
+}
+
+.title {
+	font-size: 42px;
+	font-weight: 700;
+	color: rgb(2, 156, 239);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.ingredients h2 {
+	text-align: right;
+}
+
+.ingredients ul {
+	font-weight: 300;
+	font-style: italic;
+	text-align: right;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+
+.subtitle {
+	font-size: 30px;
+	color: rgb(2, 156, 239);
+	text-transform: uppercase;
+}
+
+.item {
+	font-weight: 300;
+	font-style: italic;
+	text-align: left;
+	font-size: 20px;
+	text-shadow: -7px 4px 8px rgba(0, 255, 36, 0.81);
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	line-height: 2;
+}
+
+.facts h2 {
+	text-align: center;
+
+}
+
+.facts-text {
+	line-height: 1.5;
+	color: rgb(105, 22, 184);
+	font-size: 20px;
+	text-shadow: 4px -2px 0px rgba(220, 177, 5, 0.54);
+	word-spacing: 5px;
+	text-transform: capitalize;
+}
+
+.facts-text span {
+	font-weight: 700;
+	font-size: 25px;
+	color: rgb(228, 140, 25);
+	letter-spacing: 3px;
+}
+
+.facts-text mark {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-decoration: overline;
+}
+
+
+
+.block {
+	font-family: "Poppins", sans-serif;
+	line-height: 1.5;
+}
+
+.block-title {
+	font-size: 20px;
+	font-weight: 500;
+	color: #1A1A1A;
+}
+
+.block-text {
+	color: #808080;
+	font-size: 18px;
+}
+
+.footer {
+	font-family: "Intro";
+}
