@@ -1,0 +1,161 @@
+@import "reset.css";
+@import "fonts.css";
+
+.advantages {
+	background-color: #231F8B;
+	padding: 112px 0;
+
+}
+
+.wrapper {
+	max-width: 1050px;
+	margin: 0 auto;
+
+}
+
+.header {
+	background-color: #fb0202;
+}
+
+.header h1 {
+	font-size: 40px;
+	text-align: center;
+	padding: 40px 0;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	color: #fff;
+
+}
+
+.info {
+	max-width: 765px;
+	margin-bottom: 70px;
+}
+
+.info-subtitle {
+	color: #5A54F2;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	margin-bottom: 10px;
+}
+
+.info-title {
+	color: #FFF;
+	font-family: "Circular Std", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.text {
+	color: #fff;
+	font-family: "Circular Std", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 1.42;
+	letter-spacing: 0.2px;
+}
+
+
+.items {
+	margin: 0 -15px;
+}
+
+.item {
+	vertical-align: top;
+	margin: 0 15px;
+	display: inline-block;
+	padding: 35px 40px;
+	max-width: 230px;
+	background-color: #fff;
+	box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+
+.item img {
+	margin-bottom: 20px;
+}
+
+.decoration {
+	width: 50px;
+	height: 2px;
+	background-color: #E74040;
+	margin-bottom: 20px;
+
+}
+
+.docoration-three {
+	background-color: #fff;
+}
+
+.item-title {
+	font-family: "Circular Std", sans-serif;
+	color: #252B42;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	margin-bottom: 20px;
+}
+
+
+
+.item-text {
+	color: #737373;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.42;
+	letter-spacing: 0.2px;
+}
+
+.item-three {
+	background-color: #5A54F2;
+}
+
+.item-three * {
+	color: #fff;
+}
+
+.item-indentation {
+	margin-top: 48px;
+}
+
+.practice {
+	color: #fff;
+	font-size: 30px;
+}
+
+.block-1 {
+	background-color: #6d1c1c;
+	padding: 200px 300px;
+	margin: 100px 300px 20px 50px;
+}
+
+.block-2 {
+	background-color: #08730f;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.block-3 {
+	background-color: #3e278f;
+	max-width: 500px;
+	height: 300px;
+	padding: 10px 30px;
+	overflow: auto;
+
+}
+
+.practice span {
+	background-color: #b64717;
+	padding: 20px;
+	margin: 20px;
+	display: inline-block;
+}
