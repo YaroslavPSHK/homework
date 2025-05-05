@@ -1,0 +1,413 @@
+@import "reset.css";
+@import "fonts.css";
+
+
+.body {}
+
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+}
+
+[class*="__container"] {
+	max-width: 1130px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	padding: 30px 0;
+	background-color: #494949;
+}
+
+.header__title {
+	font-family: "Open Sans", sans-serif;
+	color: #d8d8d8;
+	text-align: center;
+	font-size: 40px;
+}
+
+.page {
+	background-color: #494949;
+}
+
+.example {
+	padding-top: 120px;
+	margin-bottom: 120px;
+}
+
+.example__body {
+	display: inline-block;
+	margin: 0 15px 15px;
+}
+
+
+
+.example__text {
+	max-width: 200px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.example__list {
+	font-size: 0;
+	margin: 0 -15px;
+	text-align: center;
+}
+
+.example__block {
+	display: inline-block;
+	border: 3px #d8d8d8 dotted;
+	width: 200px;
+	height: 200px;
+	padding: 50px;
+}
+
+.example__item {
+	width: 95px;
+	height: 95px;
+	background-color: rgba(15, 182, 37, 0.74);
+	transition: all 0.4s;
+	box-shadow: 0px 3px 19px 9px rgba(8, 145, 0, 0.46);
+
+}
+
+
+.example__body:nth-child(6) .example__block {
+	perspective: 100px;
+	perspective-origin: center;
+}
+
+.example__body:nth-child(7) .example__block {
+	transform-style: preserve-3d;
+	perspective: 300px;
+}
+
+.example__body:nth-child(8) .example__block {
+	transform-style: preserve-3d;
+	perspective: 300px;
+
+}
+
+.example__body:nth-child(1):hover .example__item {
+	transform: translate(50%, 50%);
+
+}
+
+.example__body:nth-child(2):hover .example__item {
+	transform: rotate(180deg);
+}
+
+.example__body:nth-child(3):hover .example__item {
+	transform: scale(2);
+}
+
+.example__body:nth-child(4):hover .example__item {
+	transform: skew(10deg, 40deg);
+}
+
+.example__body:nth-child(5):hover .example__item {
+	transform: rotate(180deg);
+	transform-origin: bottom right;
+}
+
+.example__body:nth-child(6):hover .example__item {
+	transform: rotateX(50deg);
+}
+
+.example__body:nth-child(7):hover .example__item {
+	transform: rotateY(180deg);
+}
+
+.example__body:nth-child(8):hover .example__item {
+	transform: rotateY(110deg) scale(2);
+}
+
+
+.flipper {
+	margin-bottom: 300px;
+}
+
+
+
+.chip {
+	display: inline-block;
+}
+
+.chip__title {
+	font-family: "Open Sans", sans-serif;
+	color: #d8d8d8;
+	font-size: 40px;
+	margin-bottom: 50px;
+
+}
+
+.chip__body {
+	display: inline-block;
+	position: relative;
+	perspective: 400px;
+}
+
+.chip__body:not(:last-child) {
+	margin-right: 150px;
+}
+
+.chip__back,
+.chip__front {
+	border-radius: 50%;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+
+.chip__back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: rotateX(180deg);
+}
+
+.chip__front {
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+}
+
+.chip__back img {
+	width: 395px;
+	height: 390px;
+
+}
+
+.chip__front img {
+	width: 395px;
+	height: 395px;
+}
+
+.chip__body:hover .chip__back {
+	transform: rotateX(0deg);
+}
+
+.chip__body:hover .chip__front {
+	transform: rotateX(-180deg);
+}
+
+.chip__body:nth-child(2) .chip__back {
+	transform: rotateY(180deg);
+}
+
+.chip__body:nth-child(2) .chip__front {
+	transform: rotateY(0deg);
+}
+
+.chip__body:nth-child(2):hover .chip__front {
+	transform: rotateY(-180deg);
+}
+
+.chip__body:nth-child(2):hover .chip__back {
+	transform: rotateY(0deg);
+}
+
+
+.car {
+	background: url("../img/road.jpg") 0 0 repeat;
+	height: 320px;
+	position: relative;
+
+}
+
+.car__body {
+	width: 800px;
+	position: absolute;
+	top: -140px;
+	left: 15%;
+}
+
+.car__roof {
+	position: relative;
+	border-bottom: 170px solid #113dcf;
+	border-left: 100px solid transparent;
+	border-right: 229px solid transparent;
+	width: 600px;
+
+
+}
+
+.car__window-first {
+	position: absolute;
+	top: 10px;
+	left: -60px;
+	border-bottom: 138px solid rgb(155, 151, 151);
+	border-left: 75px solid transparent;
+	border-right: 0px solid transparent;
+	width: 180px;
+
+}
+
+.car__window-second {
+	position: absolute;
+	top: 10px;
+	left: 140px;
+	border-bottom: 137px solid rgb(155, 151, 151);
+	border-left: 0px solid transparent;
+	border-right: 179px solid transparent;
+	width: 300px;
+
+}
+
+
+.car__main {
+	position: relative;
+	width: 700px;
+	height: 150px;
+	background-color: #113dcf;
+	border-right: 158px solid transparent;
+	border-left: 0px solid transparent;
+
+}
+
+
+.car__hood {
+	position: absolute;
+	bottom: 0;
+	right: 25px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #113dcf;
+}
+
+.car__headlight {
+	position: absolute;
+	right: -10px;
+	top: 27px;
+	box-shadow: 18px 5px 34px 0px rgba(255, 218, 75, 0.87);
+	border-radius: 10px 30px 30px 10px;
+	background-color: #e0d101;
+	width: 50px;
+	height: 50px;
+	border-left: 11px solid #058feb;
+}
+
+.car__headlight-second {
+	position: absolute;
+	left: -10px;
+	top: 27px;
+	box-shadow: -25px 1px 34px 1px rgba(255, 218, 75, 0.87);
+	border-radius: 30px 10px 0px 30px;
+	background-color: #e0d101;
+	width: 35px;
+	height: 35px;
+	border-right: 11px solid #058feb;
+}
+
+.car__headlight-three {
+	position: absolute;
+	left: -10px;
+	top: 62px;
+	box-shadow: -25px 1px 34px 1px rgba(245, 1, 1, 0.87);
+	border-radius: 30px 0px 10px 30px;
+	background-color: #f50101;
+	width: 35px;
+	height: 20px;
+	border-right: 11px solid #058feb;
+}
+
+.car__pipe-second {
+	position: absolute;
+	bottom: 19px;
+	left: -10px;
+	background-color: #8d8d8d;
+	width: 50px;
+	height: 20px;
+	border-radius: 20px;
+}
+
+.car__pipe {
+	position: absolute;
+	bottom: 19px;
+	right: -2px;
+	background-color: #8d8d8d;
+	width: 50px;
+	height: 20px;
+	border-radius: 20px;
+}
+
+.car__wheel {
+	padding: 10px;
+	border: 16px dashed #959595;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: #0c0c0c;
+	border-radius: 50%;
+	bottom: -85px;
+	left: 70px;
+}
+
+.car__wheel--second {
+	bottom: -85px;
+	left: 540px;
+
+}
+
+.car__door {
+	position: absolute;
+	top: -23px;
+	left: 240px;
+	width: 300px;
+	height: 149px;
+	background-color: #1644da;
+	border: 3px solid #058feb;
+	border-radius: 0 0 10px 10px;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.car__handle {
+	position: absolute;
+	top: 35%;
+	left: 10px;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 8px;
+	background-color: #058feb;
+	border-radius: 4px;
+}
+
+.car__antenna {
+	position: absolute;
+	top: -52px;
+	left: -21px;
+	height: 60px;
+	width: 5px;
+	background-color: #000;
+	transform: rotate(-40deg);
+
+}
+
+.footer {
+	background: url('../img/footer-bg.jpg') 0 0 repeat;
+
+
+}
+
+.footer__text {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	color: #d8d8d8;
+	font-size: 60px;
+	padding: 100px 0;
+	transition: all 0.2s;
+}
+
+.footer:hover .footer__text {
+	color: #ffe604;
+	text-shadow: -3px 0px 16px rgba(242, 253, 125, 1);
+}
