@@ -1,0 +1,307 @@
+@import "reset.css";
+@import "fonts.css";
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	padding: 25px 0;
+	font-family: "Inter", sans-serif;
+}
+
+.page {}
+
+.footer {}
+
+/* ============================================ */
+
+
+.header__inner {
+	display: flex;
+	align-items: center;
+	gap: 10px 60px;
+	flex-wrap: wrap;
+}
+
+.header__logo {
+	flex: 0 0 198px;
+
+}
+
+.header__logo img {
+	width: 100%;
+	max-width: 198px;
+	max-height: 48px;
+}
+
+.header__info {
+	text-align: right;
+	color: #000;
+	flex: 1 0 auto;
+}
+
+.header__tel {
+	font-size: 22px;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+
+.header__tel:hover {
+	color: #FE3F3F;
+}
+
+.header__schedule {
+	font-size: 14px;
+}
+
+.header__btn {
+	padding: 15px 30px;
+	color: #FFF;
+	font-size: 22px;
+	font-weight: 700;
+	border-radius: 10px;
+	background-color: #FE3F3F;
+	transition: all 0.3s;
+}
+
+.header__btn:hover {
+	background-color: #b40505;
+}
+
+
+.faculty {
+	font-family: "Inter", sans-serif;
+	background-color: #412672;
+	padding-top: 61px;
+	padding-bottom: 102px;
+	margin-bottom: 55px;
+}
+
+.faculty__title {
+	max-width: 505px;
+	color: #FFF;
+	font-size: 38px;
+	margin-bottom: 31px;
+}
+
+.faculty__title span {
+	font-size: 38px;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.faculty__items {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.faculty__item {}
+
+.item-faculty {
+	box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	background-color: #fff;
+	padding: 20px;
+	flex: 0 0 386px;
+	min-height: 476px;
+	transition: all 0.3s;
+}
+
+.item-faculty:hover {
+	background: #FFBE48;
+}
+
+.item-faculty__image img {
+	width: 100%;
+	max-width: 347px;
+	max-height: 266px;
+
+}
+
+.item-faculty__name {
+	font-family: Inter;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.item-faculty__text {
+	color: #4F4F4F;
+	font-size: 15px;
+	line-height: 1.26;
+	flex: 1 0 auto;
+}
+
+.item-faculty__btn a {
+	display: inline-block;
+	color: #FE3F3F;
+	font-size: 15px;
+	line-height: 1.26;
+	transition: all 0.3s;
+}
+
+.item-faculty__btn a:hover {
+	text-decoration: underline;
+}
+
+.info {
+	margin-bottom: 55px;
+}
+
+.info__container {}
+
+.info__inner {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: wrap;
+
+}
+
+.info__content {
+	font-family: "Inter", sans-serif;
+	flex: 0 1 518px;
+	padding-top: 98px;
+
+}
+
+.info__content p {
+	color: #412672;
+	font-size: 22px;
+	line-height: 1.2;
+}
+
+.info__content>*:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.info__title {
+	font-size: 34px;
+	color: #412672;
+	line-height: 1.2;
+}
+
+.info__title span {
+	font-weight: 700;
+
+}
+
+.list-info__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.list-info__item {
+	color: #4F4F4F;
+	font-size: 20px;
+	line-height: 1.2;
+	display: inline-flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.list-info__item::before {
+	background: url('../img/info-icon.svg') 0 0 no-repeat;
+	content: "";
+	width: 25px;
+	height: 25px;
+	flex: 0 0 25px;
+	align-self: flex-start;
+
+}
+
+.info__image {
+	flex: 0 1 764px;
+	margin-right: -164px;
+}
+
+.advantages {
+	font-family: "Inter", sans-serif;
+	background-color: #412672;
+	padding: 70px 0;
+}
+
+.advantages__title {
+	color: #FFF;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.advantages__title span {
+	font-weight: 700;
+}
+
+.advantages__items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+	align-items: center;
+}
+
+
+
+.item-advantages {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+}
+
+.item-advantages__image img {
+	max-width: 80px;
+	width: 100%;
+}
+
+.item-advantages__content {
+	text-align: center;
+	color: #FFF;
+}
+
+.item-advantages__text {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.item-advantages__subtext {
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.footer {
+	padding: 55px 0;
+
+}
+
+.footer__logo {
+	width: 100%;
+	max-width: 198px;
+	max-height: 48px;
+}
+
+.footer__inner {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.footer__inner>*:not(:last-child) {
+	margin-bottom: 28px;
+}
