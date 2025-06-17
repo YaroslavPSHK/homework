@@ -1,0 +1,42 @@
+@import "reset.css";
+@import "fonts.css";
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {}
+
+.page {}
+
+.footer {}
+
+
+/* Стилі для пристроїв, що не підтримують наведення курсора */
+@media (any-hover: none) {}
+
+/* Основні медіа запити */
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 479.98px) {}
+
+
+
+/* ============================================ */

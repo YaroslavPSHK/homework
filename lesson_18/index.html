@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.svg" type="image/svg+xml">
+	<title>Lesson 18</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				header
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<article class="page__single-blog single-blog">
+					<div class="single-blog__main-image">
+						<img src="img/orange.webp" alt="orange">
+					</div>
+					<ul class="single-blog__tags tags-single-blog">
+						<li><a class="tags-single-blog__link" href="#">Food</a></li>
+						<li><a class="tags-single-blog__link" href="#">By Admin</a></li>
+						<li><a class="tags-single-blog__link" href="#">65 Comments</a></li>
+					</ul>
+					<h1 class="single-blog__title">Maecenas tempor urna sed quam mollis, a placerat dui fringill Suspendisse.
+					</h1>
+					<div class="single-blog__post-info">
+						<figure class="single-blog__blog-author blog-author">
+							<div class="blog-author__avatar">
+								<img src="img/author-avatar.webp" alt="profile-avatar">
+							</div>
+							<figcaption>
+								<a href="#">Cameron Williamson</a>
+								<time datetime="2021-04-04">4 April, 2021 • 6 min read</time>
+							</figcaption>
+						</figure>
+						<ul class="social-list">
+							<li>
+								<a href="#" class="social-list__link" target="_blank">
+									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+										fill="none">
+										<path
+											d="M11.9976 2.98875H13.6409V0.12675C13.3574 0.08775 12.3824 0 11.2469 0C8.87764 0 7.25464 1.49025 7.25464 4.22925V6.75H4.64014V9.9495H7.25464V18H10.4601V9.95025H12.9689L13.3671 6.75075H10.4594V4.5465C10.4601 3.62175 10.7091 2.98875 11.9976 2.98875Z"
+											fill="#4D4D4D" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="social-list__link" target="_blank">
+									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+										fill="none">
+										<path
+											d="M11.9976 2.98875H13.6409V0.12675C13.3574 0.08775 12.3824 0 11.2469 0C8.87764 0 7.25464 1.49025 7.25464 4.22925V6.75H4.64014V9.9495H7.25464V18H10.4601V9.95025H12.9689L13.3671 6.75075H10.4594V4.5465C10.4601 3.62175 10.7091 2.98875 11.9976 2.98875Z"
+											fill="#4D4D4D" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="social-list__link" target="_blank">
+									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+										fill="none">
+										<path
+											d="M11.9976 2.98875H13.6409V0.12675C13.3574 0.08775 12.3824 0 11.2469 0C8.87764 0 7.25464 1.49025 7.25464 4.22925V6.75H4.64014V9.9495H7.25464V18H10.4601V9.95025H12.9689L13.3671 6.75075H10.4594V4.5465C10.4601 3.62175 10.7091 2.98875 11.9976 2.98875Z"
+											fill="#4D4D4D" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="social-list__link" target="_blank">
+									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+										fill="none">
+										<path
+											d="M11.9976 2.98875H13.6409V0.12675C13.3574 0.08775 12.3824 0 11.2469 0C8.87764 0 7.25464 1.49025 7.25464 4.22925V6.75H4.64014V9.9495H7.25464V18H10.4601V9.95025H12.9689L13.3671 6.75075H10.4594V4.5465C10.4601 3.62175 10.7091 2.98875 11.9976 2.98875Z"
+											fill="#4D4D4D" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="social-list__link" target="_blank">
+									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+										fill="none">
+										<path
+											d="M11.9976 2.98875H13.6409V0.12675C13.3574 0.08775 12.3824 0 11.2469 0C8.87764 0 7.25464 1.49025 7.25464 4.22925V6.75H4.64014V9.9495H7.25464V18H10.4601V9.95025H12.9689L13.3671 6.75075H10.4594V4.5465C10.4601 3.62175 10.7091 2.98875 11.9976 2.98875Z"
+											fill="#4D4D4D" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="single-blog__text">
+						<!-- nth-child(1)-bold??? -->
+						<p>Maecenas lacinia felis nec placerat sollicitudin. Quisque placerat dolor at scelerisque imperdiet.
+							Phasellus tristique felis dolor.</p>
+						<p>Maecenas elementum in risus sed condimentum. Duis convallis ante ac tempus maximus. Fusce malesuada
+							sed velit ut dictum. Morbi faucibus vitae orci at euismod. Integer auctor augue in erat vehicula,
+							quis fermentum ex finibus.</p>
+						<p>Mauris pretium elit a dui pulvinar, in ornare sapien euismod. Nullam interdum nisl ante, id feugiat
+							quam euismod commodo. Sed ultrices lectus ut iaculis rhoncus. Aenean non dignissim justo, at
+							fermentum turpis. Sed molestie, ligula ut molestie ultrices, tellus ligula viverra neque, malesuada
+							consectetur diam sapien volutpat risus.
+							Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet erat quis ex
+							convallis suscipit. ur ridiculus mus.</p>
+						<div class="single-blog__images">
+							<img src="img/orange.webp" alt="orange">
+							<img src="img/mango.webp" alt="mango">
+						</div>
+						<p>Sed dictum non nulla eu imperdiet. Duis elit libero, vulputate quis vehicula ut, vestibulum ut
+							mauris. Nullam non felis varius dui rutrum rutrum in a nisi. Suspendisse elementum rutrum lorem sed
+							luctus. Proin iaculis euismod metus non sollicitudin. Duis vel luctus lacus. Nullam faucibus
+							iaculis convallis. In ullamcorper nibh ipsum, eget lacinia eros pulvinar a. Integer accumsan arcu
+							nec faucibus ultricies.
+						</p>
+					</div>
+					<article class="single-blog__banner banner-sale">
+						<h3 class="banner-sale__title">
+							<span>Summer Sales</span>
+							Fresh Fruit
+						</h3>
+						<a href="#" class="banner-sale__button">Shop Now</a>
+						<div class="banner-sale__sale">
+							<p>up to</p>
+							<mark>56%</mark>
+							<p>Off</p>
+						</div>
+					</article>
+					<section class="single-blog__comments comments">
+						<form class="comments__form form-comments" action="#" enctype="multipart/form-data">
+							<h2 class="form-comments__title">Leave a Comment</h2>
+							<div class="form-comments__item">
+								<label for="name">Full Name</label>
+								<input name="form[]" type="text" id="name" placeholder="Zakir Hossen">
+							</div>
+							<div class="form-comments__item">
+								<label for="mail">Email</label>
+								<input name="form[]" type="email" id="mail" placeholder="zakirsoft.20@g|">
+							</div>
+							<div class="form-comments__item">
+								<label for="textarea">Message</label>
+								<textarea name="form[]" id="textarea" placeholder="Write your comment here…"></textarea>
+							</div>
+							<div class="form-comments__item">
+								<input required type="checkbox" name="form[]" id="checkbox">
+								<label for="checkbox">Save my name and email in this browser for the next time I
+									comment.</label>
+							</div>
+							<button type="submit" class="form-comments__button">Post Comments</button>
+						</form>
+						<h2 class="comments__title">Comments</h2>
+						<ul class="comments__list">
+							<li class="comments__item">
+								<figure class="comment">
+									<img class="comment__avatar" src="img/avatar.webp" alt="profile-avatar">
+									<figcaption class="comment__content">
+										<div class="comment__author">
+											Annette Black <time datetime="2021-06-21">26 Apr, 2021</time>
+										</div>
+										<blockquote class="comment__text"> In a nisi commodo, porttitor ligula consequat,
+											tincidunt dui. Nulla volutpat,
+											metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non
+											diam.
+										</blockquote>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="comments__item">
+								<figure class="comment">
+									<img class="comment__avatar" src="img/avatar.webp" alt="profile-avatar">
+									<figcaption class="comment__content">
+										<div class="comment__author">
+											Annette Black <time datetime="2021-06-21">26 Apr, 2021</time>
+										</div>
+										<blockquote class="comment__text"> In a nisi commodo, porttitor ligula consequat,
+											tincidunt dui. Nulla volutpat,
+											metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non
+											diam.
+										</blockquote>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="comments__item">
+								<figure class="comment">
+									<img class="comment__avatar" src="img/avatar.webp" alt="profile-avatar">
+									<figcaption class="comment__content">
+										<div class="comment__author">
+											Annette Black <time datetime="2021-06-21">26 Apr, 2021</time>
+										</div>
+										<blockquote class="comment__text"> In a nisi commodo, porttitor ligula consequat,
+											tincidunt dui. Nulla volutpat,
+											metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non
+											diam.
+										</blockquote>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="comments__item">
+								<figure class="comment">
+									<img class="comment__avatar" src="img/avatar.webp" alt="profile-avatar">
+									<figcaption class="comment__content">
+										<div class="comment__author">
+											Annette Black <time datetime="2021-06-21">26 Apr, 2021</time>
+										</div>
+										<blockquote class="comment__text"> In a nisi commodo, porttitor ligula consequat,
+											tincidunt dui. Nulla volutpat,
+											metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non
+											diam.
+										</blockquote>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="comments__item">
+								<figure class="comment">
+									<img class="comment__avatar" src="img/avatar.webp" alt="profile-avatar">
+									<figcaption class="comment__content">
+										<div class="comment__author">
+											Annette Black <time datetime="2021-06-21">26 Apr, 2021</time>
+										</div>
+										<blockquote class="comment__text"> In a nisi commodo, porttitor ligula consequat,
+											tincidunt dui. Nulla volutpat,
+											metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non
+											diam.
+										</blockquote>
+									</figcaption>
+								</figure>
+							</li>
+						</ul>
+						<button type="button" class="comments__button">Load More</button>
+					</section>
+				</article>
+				<aside class="page__blog-aside blog-aside">
+					<form class="blog-aside__form" action="#" enctype="multipart/form-data">
+						<input class="blog-aside__input" name="search" placeholder="Search..." type="search">
+					</form>
+					<section class="blog-aside__top-categories top-categories">
+						<h2 class="top-categories__title title-aside">Top Categories</h2>
+						<ul class="top-categories__list">
+							<li>
+								<a href="#" class="top-categories__link">Fresh Fruit</a>
+								<span class="top-categories__total">(134)</span>
+							</li>
+							<li>
+								<a href="#" class="top-categories__link">Fresh Fruit</a>
+								<span class="top-categories__total">(134)</span>
+							</li>
+							<li>
+								<a href="#" class="top-categories__link">Fresh Fruit</a>
+								<span class="top-categories__total">(134)</span>
+							</li>
+							<li>
+								<a href="#" class="top-categories__link">Fresh Fruit</a>
+								<span class="top-categories__total">(134)</span>
+							</li>
+							<li>
+								<a href="#" class="top-categories__link">Fresh Fruit</a>
+								<span class="top-categories__total">(134)</span>
+							</li>
+							<li>
+								<a href="#" class="top-categories__link">Fresh Fruit</a>
+								<span class="top-categories__total">(134)</span>
+							</li>
+							<li>
+								<a href="#" class="top-categories__link">Fresh Fruit</a>
+								<span class="top-categories__total">(134)</span>
+							</li>
+						</ul>
+					</section>
+					<section class="blog-aside__tags tags">
+						<h2 class="tags__title title-aside">Popular Tag</h2>
+						<ul class="tags__list">
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+							<li><a href="#" class="tags__link">Healthy</a></li>
+						</ul>
+					</section>
+					<section class="blog-aside__gallery gallery">
+						<h2 class="gallery__title title-aside">Our Gallery</h2>
+						<ul class="gallery__list">
+							<li class="gallery__item">
+								<a href="#"><img src="img/vegetables.webp" alt="vegetables"></a>
+							</li>
+							<li class="gallery__item">
+								<a href="#"><img src="img/vegetables.webp" alt="vegetables"></a>
+							</li>
+							<li class="gallery__item">
+								<a href="#"><img src="img/vegetables.webp" alt="vegetables"></a>
+							</li>
+							<li class="gallery__item">
+								<a href="#"><img src="img/vegetables.webp" alt="vegetables"></a>
+							</li>
+							<li class="gallery__item">
+								<a href="#"><img src="img/vegetables.webp" alt="vegetables"></a>
+							</li>
+							<li class="gallery__item">
+								<a href="#"><img src="img/vegetables.webp" alt="vegetables"></a>
+							</li>
+							<li class="gallery__item">
+								<a href="#"><img src="img/vegetables.webp" alt="vegetables"></a>
+							</li>
+							<li class="gallery__item">
+								<a href="#"><img src="img/vegetables.webp" alt="vegetables"></a>
+							</li>
+						</ul>
+					</section>
+					<section class="blog-aside__recently-added recently-added">
+						<h2 class="recently-added__title title-aside">
+							Recently Added
+						</h2>
+						<ul class="recently-added__list">
+							<li class="recently-added__item">
+								<article>
+									<a href="recently-added__image">
+										<img src="img/mango.webp" alt="mango">
+									</a>
+									<div class="recently-added__content">
+										<a href="#">Curabitur porttitor orci eget nequ accumsan.</a>
+										<time datetime="2021-04-25">Apr 25, 2021</time>
+									</div>
+								</article>
+							</li>
+							<li class="recently-added__item">
+								<article>
+									<a href="recently-added__image">
+										<img src="img/mango.webp" alt="mango">
+									</a>
+									<div class="recently-added__content">
+										<a href="#">Curabitur porttitor orci eget nequ accumsan.</a>
+										<time datetime="2021-04-25">Apr 25, 2021</time>
+									</div>
+								</article>
+							</li>
+							<li class="recently-added__item">
+								<article>
+									<a href="recently-added__image">
+										<img src="img/mango.webp" alt="mango">
+									</a>
+									<div class="recently-added__content">
+										<a href="#">Curabitur porttitor orci eget nequ accumsan.</a>
+										<time datetime="2021-04-25">Apr 25, 2021</time>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</section>
+				</aside>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				footer
+			</div>
+		</footer>
+	</div>
+</body>
+
+
+</html>
